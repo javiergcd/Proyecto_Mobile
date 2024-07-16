@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/example_graph"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.rybeler.exampleviewmodel.ui.fragments.FirstFragment"
+        android:label="FirstFragment" >
+        <action
+            android:id="@+id/action_firstFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_thirdFragment"
+            app:destination="@+id/thirdFragment"/>
+        <action
+            android:id="@+id/action_firstFragment_to_magazineFragment"
+            app:destination="@+id/magazineFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.rybeler.exampleviewmodel.ui.fragments.SecondFragment"
+        android:label="SecondFragment" >
+        <argument
+            android:name="tituloText"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_secondFragment_to_detailsFragment"
+            app:destination="@+id/detailsFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.rybeler.exampleviewmodel.ui.fragments.ThirdFragment"
+        android:label="ThirdFragment">
+        <argument
+            android:name="tituloTextThird"
+            app:argType="string"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/magazineFragment"
+        android:name="com.rybeler.exampleviewmodel.ui.fragments.MagazineFragment"
+        android:label="MagazineFargment">
+        <argument
+            android:name="tituloTextMagazine"
+            app:argType="string"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.rybeler.exampleviewmodel.ui.fragments.DetailsFragment"
+        android:label="DetailsFragment">
+        <argument
+            android:name="tituloTextDetails"
+            app:argType="string"/>
+    </fragment>
+
+</navigation>
