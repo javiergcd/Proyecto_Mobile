@@ -42,7 +42,9 @@
             android:layout_height="70dp"
             android:textStyle="bold"
             android:textSize="35sp"
-            android:text="PERSONAJES" />
+
+            android:text="PERSONAJES"
+            />
 
         <Button
             android:id="@+id/navegar_comics"
@@ -50,6 +52,7 @@
             android:layout_height="70dp"
             android:textStyle="bold"
             android:textSize="35sp"
+
             android:text="COMICS" />
         <Button
             android:id="@+id/navegar_magazines"
@@ -57,7 +60,7 @@
             android:layout_height="70dp"
             android:textStyle="bold"
             android:textSize="35sp"
-            android:text="REVISTAS"/>
+            android:text="REVISTAS" />
 
     </LinearLayout>
 </LinearLayout>
