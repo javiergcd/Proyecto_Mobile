@@ -19,7 +19,7 @@
     <TextView
         android:gravity="center_horizontal"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="75dp"
         android:textColor="@color/rojo"
         android:textSize="40sp"
         android:textStyle="bold"
@@ -34,7 +34,7 @@
         android:orientation="vertical"
         tools:context=".ui.screens.MainActivity"
 
-        android:background="@drawable/marvel_fondo">
+        android:background="@drawable/fondo1">
 
         <Button
             android:id="@+id/navegar_button"
