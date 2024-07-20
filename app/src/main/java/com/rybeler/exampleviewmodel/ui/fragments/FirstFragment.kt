@@ -10,6 +10,7 @@ import androidx.navigation.fragment.findNavController
 import com.rybeler.exampleviewmodel.MainViewModel
 import com.rybeler.exampleviewmodel.databinding.FragmentFirstBinding
 
+
 class FirstFragment : Fragment() {
 
     private lateinit var  binding: FragmentFirstBinding

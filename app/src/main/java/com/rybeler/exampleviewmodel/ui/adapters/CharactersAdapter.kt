@@ -2,13 +2,11 @@ package com.rybeler.exampleviewmodel.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.rybeler.exampleviewmodel.data.models.Character
 import com.rybeler.exampleviewmodel.data.models.asString
 import com.rybeler.exampleviewmodel.databinding.CharacterLayoutBinding
-import com.rybeler.exampleviewmodel.ui.fragments.SecondFragmentDirections
 
 class CharactersAdapter(
     private val characters: List<Character>,

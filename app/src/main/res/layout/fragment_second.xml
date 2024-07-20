@@ -19,7 +19,7 @@
         android:textSize="30sp"
         android:background="@color/violeta"
         android:textColor="@color/white"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler"
